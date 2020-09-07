@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+<<<<<<< HEAD
 # Only exists if Bazel was run
 /bazel-out
 
@@ -13,6 +14,12 @@
 # profiling files
 chrome-profiler-events*.json
 speed-measure-plugin*.json
+=======
+
+# dependencies
+/node_modules
+yarn.lock
+>>>>>>> f1291a77391d2c2e58879bf10463802b9495ee66
 
 # IDEs and editors
 /.idea
@@ -29,12 +36,16 @@ speed-measure-plugin*.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+<<<<<<< HEAD
 .history/*
+=======
+>>>>>>> f1291a77391d2c2e58879bf10463802b9495ee66
 
 # misc
 /.sass-cache
 /connect.lock
 /coverage
+<<<<<<< HEAD
 /libpeerconnection.log
 npm-debug.log
 yarn-error.log
@@ -44,3 +55,23 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+=======
+/typings
+.firebase
+*.log
+.floo
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+>>>>>>> f1291a77391d2c2e58879bf10463802b9495ee66
